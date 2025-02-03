@@ -1,16 +1,48 @@
-## Hi there 👋
+## Hi, I'm Amstelz 👋
 
-<!--
-**Amstelz/Amstelz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software Enginner at [Erudite Co., Ltd.](https://erd.ai/meet-the-team)
 
-Here are some ideas to get you started:
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class SoftwareEngineer:
+
+    def __init__(self):
+        self.name = "Amstelz"
+        self.role = "Software Engineer"
+        self.language_spoken = ["english", "thai"]
+        self.code = ["Python", "JavaScript", "TypeScript", "Java", "C#"]
+        self.tools = [
+            "AWS",
+            "Docker",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "RabbitMQ",
+            "Git",
+        ]
+        self.experience = "2+ years in backend development"
+        self.interests = [
+            "Data Structures and Algorithms",
+            "Backend Optimization",
+            "Tech Innovations",
+        ]
+
+    def say_hi(self, language="english"):
+        messages = {
+            "english": "Thanks for dropping by, hope you find some of my work interesting.",
+            "thai": "ขอบคุณที่แวะมา หวังว่าคุณจะสนใจผลงานของผม",
+        }
+
+        if language in self.language_spoken:
+            print(messages.get(language))
+        else:
+            print(f"Sorry, I don't speak {language} yet.")
+
+me = SoftwareEngineer()
+me.say_hi()
+```
+
+I'm always open to collaborating on exciting projects and learning new things. Feel free to reach out! 😊
